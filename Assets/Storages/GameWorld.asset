@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1df4de9633fe34da4356bdf2d638da, type: 3}
+  m_Name: GameWorld
+  m_EditorClassIdentifier: 
+  gameSettings: {fileID: 11400000, guid: bd39a2110d47aad41b8d823cd4046247, type: 2}
+  gameScene: {fileID: 0}
+  coinPrefab: {fileID: 1360063399741526350, guid: 080390dc8146eb1499172d42a1c59807, type: 3}
+  spikePrefab: {fileID: 6361292362775819885, guid: 665d8efc3bc988f459f51bc65a89308d, type: 3}
+  gamePool:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
