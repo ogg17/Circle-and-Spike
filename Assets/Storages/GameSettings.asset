@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinCount: 10
   spikeCount: 20
-  lenght: 10
-  width: 10
+  lenght: 300
+  width: 450
+  border: 50
+  difficulty: 10000

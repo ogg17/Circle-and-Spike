@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectsGenerator : MonoBehaviour
+public class MainScript : MonoBehaviour
 {
     [SerializeField] private GameWorld gameWorld;
     [SerializeField] private GameObject gameScene;
@@ -14,7 +14,7 @@ public class ObjectsGenerator : MonoBehaviour
     void Start()
     {
         gameWorld.gameScene = gameScene;
-        coinGenerator = new CoinGenerateSystem(gameWorld, gameWorld.coinPrefab);
+        coinGenerator = new CoinGenerateSystem(gameWorld);
         coinGenerator.Init();
     }
 
